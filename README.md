@@ -23,7 +23,7 @@ dataset/
       ├── bacterial_leaf_blight/
       └── healthy/
 
-
+```
 
 ---
 
@@ -31,6 +31,7 @@ dataset/
 
 1. Download the **Other_Resource.zip** available above.  
 2. Extract and arrange it as follows:
+```
 other_resource/
 ├── attributes/
 │ └── paddy_disease/
@@ -45,10 +46,10 @@ other_resource/
 ├───── dead_heart/
 └── ...
 
-
+```
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Install Ollama
 Download and install **Ollama** from [ollama.com](https://ollama.com/).  
@@ -65,7 +66,7 @@ data_generation.ipynb
 # Convert into LLaVA-compatible format
 data_format_converter.ipynb
 
-🚀 Model Fine-tuning
+Model Fine-tuning
 ⚠️ Important: Only Linux is supported. For macOS/Windows, follow instructions in the LLaVA repo.
 
 # Clone the LLaVA repository
