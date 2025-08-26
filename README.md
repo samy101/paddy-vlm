@@ -68,7 +68,7 @@ data_format_converter.ipynb
 
 Model Fine-tuning
 ⚠️ Important: Only Linux is supported. For macOS/Windows, follow instructions in the LLaVA repo.
-
+```
 # Clone the LLaVA repository
 git clone https://github.com/haotian-liu/LLaVA.git
 cd LLaVA
@@ -89,7 +89,7 @@ pip install -e .
 
 # If errors occur, try:
 # pip install flash-attn --no-build-isolation --no-cache-dir
-
+```
 
 Fine-tuning Command
 scripts/v1_5/finetune_task_lora.sh
