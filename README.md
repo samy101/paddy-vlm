@@ -10,15 +10,19 @@ This repository contains code, resources, and instructions to reproduce the expe
 
 2. Arrange the dataset in the following structure:
 
+Arrange the dataset in the following structure:
+
+```bash
 dataset/
-└── paddy_disease/
-├───── blast/
-├───── tungro/
-├───── dead_heart/
-├───── brown_spot/
-├───── hispa/
-├───── bacterial_leaf_blight/
-└───── healthy/
+ └── paddy_disease/
+      ├── blast/
+      ├── tungro/
+      ├── dead_heart/
+      ├── brown_spot/
+      ├── hispa/
+      ├── bacterial_leaf_blight/
+      └── healthy/
+
 
 
 ---
