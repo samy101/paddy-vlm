@@ -94,8 +94,10 @@ pip install -e .
 Fine-tuning Command
 scripts/v1_5/finetune_task_lora.sh
 Move your dataset and JSON/JSONL files into the playground directory and adjust paths inside the script:
+```
 --data_path ./playground/data/llava_v1_5_mix665k.json \
 --image_folder ./playground/data/dataset
+```
 ✅ Done!
 
 References
