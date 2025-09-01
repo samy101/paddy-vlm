@@ -14,8 +14,7 @@ Ollama setup), and enrich them with knowledge from agricultural repositories. Fi
 accuracy but also assess severity and provide actionable recommendations in con14 versational form. Experimental results demonstrate that PaddyVLM substantially
 outperforms general-purpose multimodal models in fine-grained recognition and
 domain-specific reasoning, positioning it as a promising expert assistant for farmers
-and agricultural researchers. We release the reproducible code, dataset, and trained
-models at https://anonymous.4open.science/r/paddy-vlm-7A67/.
+and agricultural researchers.
 This repository contains code, resources, and instructions to reproduce the experiments and fine-tune the model.  
 
 ---
