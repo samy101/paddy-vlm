@@ -15,6 +15,8 @@ This repository contains code, resources, and instructions to reproduce the expe
 ---
 
 ## Step to construct PaddyInstruct, instruction-tuning dataset derived from image only Paddy Disease dataset
+Download or Clone this repo
+
 ### 1. Ollama Setup for linux
 
 run the below command in terminal to install the ollama
