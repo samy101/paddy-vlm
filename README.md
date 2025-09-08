@@ -28,7 +28,7 @@ ollama run mistral
 ```
 please visit the official website [ollama.com](https://ollama.com/) to see the installation for Windows and macOS.
 
-Make sure your system meets the requirements before proceeding.You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.
+Make sure your system meets the requirements before proceeding. You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.
 
 ## 📂 Dataset Setup
 
