@@ -36,11 +36,10 @@ Make sure your system meets the requirements before proceeding. You should have 
    👉 [Paddy Disease Classification Dataset](https://www.kaggle.com/competitions/paddy-disease-classification/data)
    
 rename the train_images folder to paddy_disease and copy this folder inside datasets folder in PaddyVLM
+datasets folder will be like this following structure:
 
-Arrange the dataset in the following structure:
-
-```bash
-dataset/
+```
+datasets/
  └── paddy_disease/
       ├── blast/
       ├── tungro/
