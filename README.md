@@ -11,9 +11,10 @@ Large multimodal models (LMMs) have demonstrated impressive capabilities in visi
 ![Multi-turn Comparison](images/multiturn.png)
 
 <p align="center">
-  <img src="images/simple.png" alt="Simple Comparison" width="400" height="300"/>
-  <img src="images/multiturn.png" alt="Multi-turn Comparison" width="400" height="300"/>
+  <img src="images/simple.png" alt="Simple Comparison" width="400" height="400"/>
+  <img src="images/multiturn.png" alt="Multi-turn Comparison" width="400" height="400"/>
 </p>
+
 
 
 
