@@ -71,25 +71,10 @@ other_resource/
 ```
 Run the data_generation.ipynb it will generate "paddy_disease.jsonl" file that will contain the question-answer pair. Now run the data_format_converter.ipynb that will 
 convert it into llava finetuning format and generate "paddy_disease_llava.json". Please croos-verify the files name.
-
-## Installation
-
-### 1. Install Ollama
-Download and install **Ollama** from [ollama.com](https://ollama.com/).  
-Make sure your system meets the requirements before proceeding.
-
 ---
 
-### 2. Data Preparation
-
-Run the following scripts in order:
-# Generate question-answer pairs
-data_generation.ipynb
-
-# Convert into LLaVA-compatible format
-data_format_converter.ipynb
-
-Model Fine-tuning
+# Model Fine-tuning
+Please see the official documentation [LLaVA Official Repository](https://github.com/haotian-liu/LLaVA) for more details or follow the below steps.
 ⚠️ Important: Only Linux is supported. For macOS/Windows, follow instructions in the LLaVA repo.
 ```
 # Clone the LLaVA repository
@@ -113,11 +98,11 @@ pip install -e .
 # If errors occur, try:
 # pip install flash-attn --no-build-isolation --no-cache-dir
 ```
-
-Fine-tuning Command
-scripts/v1_5/finetune_task_lora.sh
-Move your dataset and JSON/JSONL files into the playground directory and adjust paths inside the script:
+copy the dataset folder and paddy_disease_llava.json inside the playground folder and run the below command in terminal 
 ```
+bash scripts/v1_5/finetune_task_lora.sh
+```
+Please adjust the below file path inside scripts/v1_5/finetune_task_lora.sh if needed
 --data_path ./playground/data/llava_v1_5_mix665k.json \
 --image_folder ./playground/data/dataset
 ```
