@@ -15,6 +15,8 @@ This repository contains code, resources, and instructions to reproduce the expe
 ---
 
 ## Step to construct PaddyInstruct, instruction-tuning dataset derived from image only Paddy Disease dataset
+### Ollama Setup
+
 
 ## 📂 Dataset Setup
 
