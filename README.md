@@ -11,11 +11,11 @@ outperforms general-purpose multimodal models in fine-grained recognition and
 domain-specific reasoning, positioning it as a promising expert assistant for farmers
 and agricultural researchers.
 This repository contains code, resources, and instructions to reproduce the experiments and fine-tune the model.  
-
 ---
+![](images/simple.png)
 
 ## Step to construct PaddyInstruct, instruction-tuning dataset derived from image only Paddy Disease dataset
-Download or Clone this repo (git clone https://github.com/samy101/paddy-vlm.git). Project folder PaddyVLM folder contains two python notebook, datasets folder and other_resources zip file.
+Download or Clone this repo (git clone https://github.com/samy101/paddy-vlm.git). Project folder PaddyVLM contains two python notebook, datasets folder and other_resources zip file.
 ![](images/data_generation.png)
 
 ### 1. Ollama Setup for linux
