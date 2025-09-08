@@ -26,8 +26,9 @@ Run the below command to download the mistral and llava:13b model
 ollama run llava:13b
 ollama run mistral
 ```
-now run : ollama run llava:13b
-and ollama run mistral 
+please visit the official website [ollama.com](https://ollama.com/) to see the installation for Windows and macOS.
+Make sure your system meets the requirements before proceeding.
+
 ## 📂 Dataset Setup
 
 1. Download the dataset from Kaggle:  
