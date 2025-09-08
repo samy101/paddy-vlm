@@ -13,11 +13,11 @@ Large multimodal models (LMMs) have demonstrated impressive capabilities in visi
 ![Multi-turn Comparison](images/multiturn.png)
 
 <p align="center">
-  <img src="images/simple.png" alt="Simple Comparison"/>
+  <img src="images/simple.png" alt="Simple Comparison", height=100/>
 </p>
 
 <p align="center">
-  <img src="images/multiturn.png" alt="Multi-turn Comparison" />
+  <img src="images/multiturn.png" alt="Multi-turn Comparison" ,height=150/>
 </p>
 
 # Step to construct PaddyInstruct, instruction-tuning dataset derived from image only Paddy Disease dataset
