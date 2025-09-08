@@ -30,12 +30,11 @@ please visit the official website [ollama.com](https://ollama.com/) to see the i
 
 Make sure your system meets the requirements before proceeding. You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.
 
-## 📂 Dataset Setup
+## 2. Dataset
 
-1. Download the dataset from Kaggle:  
+1. Click the below link and download the dataset from Kaggle:  
    👉 [Paddy Disease Classification Dataset](https://www.kaggle.com/competitions/paddy-disease-classification/data)
-
-2. Arrange the dataset in the following structure:
+rename the train_images folder to paddy_disease and copy this folder inside datasets folder in PaddyVLM
 
 Arrange the dataset in the following structure:
 
