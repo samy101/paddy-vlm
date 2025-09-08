@@ -6,7 +6,7 @@ Large multimodal models (LMMs) have demonstrated impressive capabilities in visi
 ---
 Comparision of PaddyVLM with other open source models.
 ![](images/simple.png)
-![](images/multiturn.png)
+<!-- ![](images/multiturn.png) -->
 
 # Step to construct PaddyInstruct, instruction-tuning dataset derived from image only Paddy Disease dataset
 Download or Clone this repo (git clone https://github.com/samy101/paddy-vlm.git). Project folder PaddyVLM contains two python notebook, datasets folder and other_resources zip file.
