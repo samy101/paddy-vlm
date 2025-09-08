@@ -82,8 +82,10 @@ other_resource/
 └── ...
 
 ```
+
 Run the data_generation.ipynb it will generate "paddy_disease.jsonl" file that will contain the question-answer pair. Now run the data_format_converter.ipynb that will 
 convert it into llava finetuning format and generate "paddy_disease_llava.json". Please croos-verify the files name.
+
 ---
 
 # Model Fine-tuning
