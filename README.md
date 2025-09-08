@@ -90,7 +90,8 @@ convert it into llava finetuning format and generate "paddy_disease_llava.json".
 
 # Model Fine-tuning
 Please see the official documentation [LLaVA Official Repository](https://github.com/haotian-liu/LLaVA) for more details or follow the below steps.
-⚠️ Important: Only Linux is supported. For macOS/Windows, follow instructions in the LLaVA repo.
+
+Important: Only Linux is supported. For macOS/Windows, follow instructions in the LLaVA repo.
 ```
 # Clone the LLaVA repository
 git clone https://github.com/haotian-liu/LLaVA.git
