@@ -56,10 +56,10 @@ datasets/
 
 ---
 
-## 📦 Additional Resources
+## 3. Other Resources
+   Extract the other_resources that contains attribute and external_knowledge folder copy the other_resources folder and paste inside paddyVLM folder.
 
-1. Download the **Other_Resource.zip** available above.  
-2. Extract and arrange it as follows:
+   It will look like this
 ```
 other_resource/
 ├── attributes/
@@ -76,7 +76,6 @@ other_resource/
 └── ...
 
 ```
----
 
 ## Installation
 
