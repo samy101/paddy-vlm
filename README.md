@@ -15,8 +15,15 @@ This repository contains code, resources, and instructions to reproduce the expe
 ---
 
 ## Step to construct PaddyInstruct, instruction-tuning dataset derived from image only Paddy Disease dataset
-### 1. Ollama Setup
-run (curl -fsSL https://ollama.com/install.sh | sh) command in terminal to install the ollama 
+### 1. Ollama Setup for linux
+
+run the below command in terminal to install the ollama in linux
+```curl -fsSL https://ollama.com/install.sh | sh```
+and run the below command to download the mistral and llava:13b model
+```
+ollama run llava:13b
+ollama run mistral
+```
 now run : ollama run llava:13b
 and ollama run mistral 
 ## 📂 Dataset Setup
