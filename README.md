@@ -34,6 +34,7 @@ Make sure your system meets the requirements before proceeding. You should have 
 
 1. Click the below link and download the dataset from Kaggle:  
    👉 [Paddy Disease Classification Dataset](https://www.kaggle.com/competitions/paddy-disease-classification/data)
+   
 rename the train_images folder to paddy_disease and copy this folder inside datasets folder in PaddyVLM
 
 Arrange the dataset in the following structure:
