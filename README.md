@@ -3,11 +3,11 @@
 <p align="justify">
 Large multimodal models (LMMs) have demonstrated impressive capabilities in vision-language reasoning, yet they often struggle when applied to specialized domains such as agriculture. Crop disease diagnosis, in particular, demands fine-grained expertise that general-purpose LMMs fail to capture. In this work, we present PaddyVLM, a domain-adapted vision-language model designed for paddydisease analysis. Building on LLaVA-v1.5-7B-LoRA, we construct PaddyInstruct, a domain-specific instruction-tuning dataset derived from a curated Paddy Disease dataset of 10,407 images spanning 10 categories, including both healthy and diseased conditions. To develop PaddyInstruct, we generate image descriptions with LLaVA-13B, create Q&A pairs and multi-turn dialogues using Mistral-7B (via an Ollama setup), and enrich them with knowledge from agricultural repositories. Fine-tuning with this data enables PaddyVLM to not only recognize diseases with high accuracy but also assess severity and provide actionable recommendations in conversational form. Experimental results demonstrate that PaddyVLM substantially outperforms general-purpose multimodal models in fine-grained recognition and domain-specific reasoning, positioning it as a promising expert assistant for farmers and agricultural researchers. This repository contains code, resources, and instructions to reproduce the experiments and fine-tune the model.  
 </p>
----
 ## Comparision of PaddyVLM with other open source models.
 ![](images/simple.png)
 ![](images/multiturn.png)
 ---
+
 # Step to construct PaddyInstruct, instruction-tuning dataset derived from image only Paddy Disease dataset
 Download or Clone this repo (git clone https://github.com/samy101/paddy-vlm.git). Project folder PaddyVLM contains two python notebook, datasets folder and other_resources zip file.
 ![Pipeline to generate expert-tuning dataset.](images/data_generation.png)
