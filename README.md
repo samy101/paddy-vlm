@@ -7,7 +7,7 @@ Large multimodal models (LMMs) have demonstrated impressive capabilities in visi
 
 ![](images/simple.png)
 <p align="justify">
-## Step to construct PaddyInstruct, instruction-tuning dataset derived from image only Paddy Disease dataset
+# Step to construct PaddyInstruct, instruction-tuning dataset derived from image only Paddy Disease dataset
 Download or Clone this repo (git clone https://github.com/samy101/paddy-vlm.git). Project folder PaddyVLM contains two python notebook, datasets folder and other_resources zip file.
 ![Pipeline to generate expert-tuning dataset.](images/data_generation.png)
 
