@@ -7,14 +7,11 @@ Large multimodal models (LMMs) have demonstrated impressive capabilities in visi
 ---
 
 ## Comparison of PaddyVLM with other open source models  
-![Simple Comparison](images/simple.png)  
-![Multi-turn Comparison](images/multiturn.png)
 
 <p align="center">
-  <img src="images/simple.png" alt="Simple Comparison" width="400" height="400"/>
-  <img src="images/multiturn.png" alt="Multi-turn Comparison" width="400" height="400"/>
+  <img src="images/simple.png" alt="Simple Comparison" width="400"/>
+  <img src="images/multiturn.png" alt="Multi-turn Comparison" width="400"/>
 </p>
-
 
 
 
