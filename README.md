@@ -1,7 +1,5 @@
 
 # 🌾 Paddy-VLM
-
-Abstract
 Large multimodal models (LMMs) have demonstrated impressive capabilities in
 vision-language reasoning, yet they often struggle when applied to specialized
 domains such as agriculture. Crop disease diagnosis, in particular, demands fine4 grained expertise that general-purpose LMMs fail to capture. In this work, we
