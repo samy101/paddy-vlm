@@ -1,28 +1,7 @@
 
 # 🌾 Paddy-VLM
 <p align="justify">
-Paddy is one of the most important crops worldwide, but its
-cultivation suffers significant yield losses due to diseases and
-pests that are often difficult to accurately identify and man-
-age. Existing models are largely limited to image classifica-
-tion or detection and lack the contextual agricultural knowl-
-edge required for reliable diagnosis and effective mitigation.
-We present PaddyVLM, a domain-adapted vision-language
-model for paddy crop analysis, capable of identifying dis-
-eases and pests, assessing severity, and providing action-
-able guidance. Built on LLaVA-v1.5-7B-LoRA, our model
-is trained using PaddyInstruct, a curated instruction-tuning
-dataset derived from the Paddy Doctor (10,407 images, 10
-classes) and Paddy Pest (5,673 images, 20 classes) datasets.
-PaddyInstruct combines LLaVA-13B generated descriptions,
-Mistral-7B generated simple Q&A and multi-turn dialogues,
-and expert knowledge refinement. Fine-tuning on this dataset
-equips PaddyVLM with robust fine-grained recognition and
-context-aware reasoning. Experiments show that PaddyVLM
-substantially outperforms general-purpose LMMs in both dis-
-ease and pest understanding, demonstrating its potential as
-a practical expert assistant for farmers and agricultural re-
-searchers.  
+Paddy is one of the most important crops worldwide, but its cultivation suffers significant yield losses due to diseases and pests that are often difficult to accurately identify and manage. Existing models are largely limited to image classification or detection and lack the contextual agricultural knowledge required for reliable diagnosis and effective mitigation. We present PaddyVLM, a domain-adapted vision-language model for paddy crop analysis, capable of identifying diseases and pests, assessing severity, and providing actionable guidance. Built on LLaVA-v1.5-7B-LoRA, our model is trained using PaddyInstruct, a curated instruction-tuning dataset derived from the Paddy Doctor (10,407 images, 10 classes) and Paddy Pest (5,673 images, 20 classes) datasets. PaddyInstruct combines LLaVA-13B generated descriptions, Mistral-7B generated simple Q&A and multi-turn dialogues, and expert knowledge refinement. Fine-tuning on this dataset equips PaddyVLM with robust fine-grained recognition and context-aware reasoning. Experiments show that PaddyVLM substantially outperforms general-purpose LMMs in both disease and pest understanding, demonstrating its potential as a practical expert assistant for farmers and agricultural researchers.  
 </p>
 
 ---
